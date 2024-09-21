@@ -7,6 +7,8 @@ export default function Motion() {
   const [x, setX] = useState(0);
   const [y, setY] = useState(0);
   const [rotate, setRotate] = useState(0);
+
+  //feat1
   return (
     <div className="h-full flex flex-col justify-center">
       <div className="flex justify-center space-x-3">
